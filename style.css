@@ -60,12 +60,13 @@ body {
     font-size: 55px;
     margin-left: 30px;
     color: #aaabad;
+    transition: background-color, 1000ms;
 }
 
 .logo img:hover{
-    color: white;
-    cursor: pointer;
-    transition: 0.3s;
+    background-color: rgba(14,41,62,255);
+    transition: background-color, 1000ms;
+    transform:scale(1.05);
 }
 
 .nav-items{
