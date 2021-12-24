@@ -1,3 +1,2 @@
-# test
-
-https://fighterofkeyboard.github.io/Website/
+#NTNet
+link: https://fighterofkeyboard.github.io/Website/
