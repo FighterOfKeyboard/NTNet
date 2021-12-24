@@ -25,7 +25,7 @@ function getResults() {
                 
                 <div class ="search-results-item">
                     <span class="search-item">${websites[i].title}</span>
-                    <!-- <span class="search-item">${websites[i].url}</span> -->
+                    <span class="search-url" id=${websites[i].url}></span>
                 </div>
                 
                 `;
@@ -35,11 +35,17 @@ function getResults() {
     
 }
 
-
 selectElement('.search-input').addEventListener('keyup', getResults);
 
 
+var x = 1;
+function onClickFunction() {
+    var sec = document.querySelector('.search-results div:nth-child(1)')
+    var shit = document.getElementsByTagName("span")[1].getAttribute("id");
+    console.log(shit);
+    window.open("index.html","_self");
 
+}
 //------------------------------------------------------------------------------------------------------------ D A T A B A S E -------------------------------------------------------------------------------------------
 
 
