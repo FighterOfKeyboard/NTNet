@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta name="viewport" content="width=device-width, scale=1.0">
         <title>NTNet</title>
         <link rel = "icon" href = "ntlogo.png"
         type = "image/x-icon">
@@ -29,7 +29,7 @@
 
                 <div class="nav-items">
                     <ul>
-                        <li><a href="https://www.google.com/">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="#">News</a></li>
                         <li><a href="#">Jobs</a></li>
                         <li><a href="#">About</a></li>
@@ -37,33 +37,23 @@
                     </ul>
                 </div>
             </div>
-            <div class="content">
-                <div class="content-text">
-                    <h1>GLORY TO <br> NANOTRASEN</h1>
-                    <span>Learn More<i class="fas fa-arrow-right"></i></span>
+            <div class="searchbar">
+            <img src="ntoogle_logo.png" class="image">
+            <div id="sb-search" class="sb-search">
+              <div class="search-wrapper">
+                
+                <input class="search-input" placeholder="Search..." type="input" value="" name="search" id="search" autocomplete="off"/>
+                <i  class="fas fa-search searchButton" onclick="getResults();"></i>
                 </div>
-                <div class="content-image">
-                    <img src="1.png" class="image" id="slide">
-                    
+                    <div class="search-results"></div>
+                    <div class="search-data"></div>
                 </div>
+              </div>
             </div>
-            <div class="footer">
-                <div class="social-media">
-                    <ul>
-                        <li><a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram"></i></i></a></li>
-                        <li><a href="https://www.twitter.com" target="blank"><i class="fab fa-twitter"></i></a></li>
-                    </ul>
-                </div>
-                <div class="icon">
-                    <div data-image="1.png" onclick="toggleImage(this)"><i class="fas fa-circle blackIcon"></i></div>
-                    <div data-image="2.png" onclick="toggleImage(this)"><i class="fas fa-circle redIcon"></i></div>
-                    <div data-image="3.png" onclick="toggleImage(this)"><i class="fas fa-circle blueIcon"></i></div>
-                </div>
-            </div>
+          </div>
         </div>
-        
-        <script src="script.js"></script> 
 
+        <script src="script.js"></script>
+        <script src="searchengine.js"></script>
+        
     </body>
-</html>
