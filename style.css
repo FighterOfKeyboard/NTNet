@@ -243,6 +243,9 @@ body {
 .side-bar ul li:nth-child(4){
     transition: 0.3s ease 0.4s;
 }
+.side-bar ul li:nth-child(5){
+    transition: 0.3s ease 0.5s;
+}
 
 .side-bar ul li a{
     text-decoration: none;
