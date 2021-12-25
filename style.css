@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "az";
+    src: url("Azonix-1VB0.otf") format("opentype");
+    }
+.scrollable-element {
+    scrollbar-width: none;
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -5,23 +12,11 @@
     font-family: 'Montserrat', sans-serif;
     cursor: url("cursor.png"), default;
 }
-/* Safari syntax */
-:-webkit-full-screen {
-    background-color: #212226;
-  }
-  
-  /* IE11 */
-  :-ms-fullscreen {
-    background-color: #212226;
-  }
-  
-  /* Standard syntax */
-  :fullscreen {
-    background-color: #262124;
-  }
+
+
 body {
     height: 100vh;
-    background: linear-gradient(to bottom right, #2c3e50, #161616);
+    background-color: #212226;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +26,7 @@ body {
     height: 100%;
     width: 100%;
     background: #212226;
-    box-shadow: 6px 12px 15px rgba(0,0,0,0.3);
+    box-shadow: 6px 12px 15px rgba(0,0,0,0);
     display: flex;
     flex-direction: column;
     border-radius: 5px;
@@ -44,6 +39,7 @@ body {
 }
 
 .nav-bar{
+    min-height: 93px;
     flex-basis: 10%;
     /*background: magenta;*/
     display: flex;
@@ -280,8 +276,8 @@ body {
 
 .searchbar{
     position: absolute;
-     top: 426px;
-     left: 795px;
+    top: 402px;
+    left: 646px;
 }
 .search-input{
     width: 100%;
