@@ -1,6 +1,6 @@
 @font-face {
     font-family: "az";
-    src: url("Azonix-1VB0.otf") format("opentype");
+    src: url("") format("opentype");
     }
 .scrollable-element {
     scrollbar-width: none;
@@ -142,7 +142,77 @@ body {
     box-shadow: 6px 12px 20px rgba(14, 41, 62, 0.5);
 }
 
+.under-construction{
+    color: rgb(255, 255, 255);
+    background-image: repeating-linear-gradient( #000000 0%, yellow 100%);
+    padding: 5px;
+}
+
+.content-text-about{
+    width: 50%;
+    flex-basis: 40%;
+    /*background: lightblue;*/
+    margin: 0px;
+    /*text-align: center; */
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.content-text-about h1{
+    text-align: center;
+    vertical-align: text-top;
+    letter-spacing: 1.5px;
+    line-height: 50px;
+    
+}
+.content-text-about li p{
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #aaabad;
+    /*background: red;*/
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.content-details{
+    margin-top: 0px;
+    position: fixed;
+    width: 50%;
+    height:100%;
+    right: 0px;
+    
+}
+
+.holder{
+    vertical-align: baseline;
+    text-align: center;
+    color: #afafaf;
+    display:none;
+    margin-top: px;
+    position: fixed;
+    width: 50%;
+    height:100%;
+    right: 0px;
+    background-color:rgba(144,144,144,0.2) ;
+    line-height: 30px;
+    
+}
+.vl {
+    border-left: 6px solid white;
+    height: 1000cm;
+    position: absolute;
+    left: 0%;
+    margin-left: -3px;
+    top: 0;
+  }
+
+
 .footer{
+    min-height: 93px;
     display: flex;
     flex-basis: 10%;
     /*background: lightsalmon;*/

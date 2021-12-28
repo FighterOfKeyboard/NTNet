@@ -1,3 +1,8 @@
+<!--How to add an article:
+    1.under <h1> News</h1> create a new list item and set the id. Inside that list write the title and then <br> and the date
+    2.under content-details create a new <dev> and set the class to holder and set te id
+        -->
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -38,11 +43,34 @@
                 </div>
             </div>
             <div class="content">
-                <div class="content-text">
-                    <h1> News</h1>
+                <div class="content-text-about">
+                    <h1> News </h1>
+                    <!--newer articles to the top-->
+                    <li onclick="toggleNews(this)" id="2"><p>Explosions in Geminus City!<br> 2565-08-01</p></li>
+                    <li onclick="toggleNews(this)" id="1"><p>Hospital Bombed, President Targeted! <br> 2565-07-31</p></li>
+                    <li onclick="toggleNews(this)" id="0"><p>Scotty Willey Wins July 2565 Election with 7 Votes Out of 7 <br> 2565-07-28</p></li>
+                
                 </div>
-                <div class="content-image">
-                    
+                <div class="content-details">
+                <!--newer articles to the top-->
+                    <dev class="holder" id="0">
+                        <p>Electoral Assistants of Geminus City have counted the final votes and presented the electoral results to all, there were 7 total. People from several continents on Pollux watched as the name was pulled from the traditional ballot hat. 
+                            Millions of people gathered in-person to watch the event, others stayed home to observe their televisions and communicator screens as they watch Pollux's moon through their screens. Many believed that Scott Willey would win based on the monthly election president website electionpredictions.nt.
+                           
+                            The very trustworthy and experienced electoral asssistant, Jason Lake pulls a piece of paper from the hat, revealing to viewers the winner of the election: Scotty Willey who won with 7 votes out of 7. It would have appear that the new president's slogan "Scotty will help you pocket more money" resonated with the populace.
+                            Brooke Wolff from Blue Colony commented, "Oh, I don't know anything about their policies, I just thought they were cute.", many citizens were very pleased with the results. Some however, were not as happy. A Castor civilian, Elliot Langston, commented on live television, "The system is rigged to hell, let me tell you!". 
+                            Regardless of the mixed views, many await Scotty Willey's inaugeration to see how they will deliver on their promises.</p>
+                    <div class="vl"></div>
+                    </dev>
+                    <dev class="holder" id="1">
+                        <p>eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
+                    <div class="vl"></div>
+                    </dev>
+                    <dev class="holder" id="2">
+                        <p>RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR</p>
+                    <div class="vl"></div>
+                    </dev>
+                    <span></span>
                 </div>
             </div>
             <div class="footer">

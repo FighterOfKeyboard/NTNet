@@ -11,9 +11,22 @@ images[1].src = "2.png"
 images[2] = new Image()
 images[2].src = "3.png"
 
-var time = 5000;
+var time = 10000;
 
+function toggleNews(id)
+ {
+    x = id.getAttribute("id");
 
+    var holder = document.querySelectorAll('.holder');
+    var hid = document.getElementsByClassName("holder");
+    // Emulates jQuery $(element).is(':hidden');
+    for (i = 0; i < holder.length; i++) {
+        hid[i].style.display = "none";
+      }
+        
+        hid[x].style.display = "block";
+
+ }
 //renamed toggle function to toggleImage
 function toggleImage(e)
 {
@@ -24,8 +37,6 @@ function toggleImage(e)
 
 function autoslide()
 {
-    console.log("Function started");
-    console.log(i);
      //if browser does not support the image object, exit.
     if (!document.images){
         return
