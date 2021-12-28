@@ -13,7 +13,7 @@ images[2].src = "3.png"
 
 var time = 10000;
 
-function toggleNews(id)
+function toggleText(id)
  {
     x = id.getAttribute("id");
 

@@ -166,6 +166,11 @@ body {
     line-height: 50px;
     
 }
+
+.content-text-about h2{
+    text-align: center;
+    margin-top: 30px;
+}
 .content-text-about li p{
     margin-top: 30px;
     text-align: center;
@@ -200,6 +205,11 @@ body {
     background-color:rgba(144,144,144,0.2) ;
     line-height: 30px;
     
+}
+
+.holder img{
+    width: 5cm;
+    height: auto;
 }
 .vl {
     border-left: 6px solid white;
