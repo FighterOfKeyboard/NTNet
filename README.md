@@ -1,3 +1,3 @@
 # NTNet
 
-link: https://fighterofkeyboard.github.io/Website/
+link: https://fighterofkeyboard.github.io/NTNet/
