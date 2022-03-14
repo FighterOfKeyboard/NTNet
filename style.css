@@ -90,6 +90,7 @@ body {
     font-size: 11px;
     text-transform: uppercase;
     font-weight: bold;
+    display:block;
 }
 
 .nav-items ul li a:hover{
@@ -205,6 +206,12 @@ body {
     background-color:rgba(144,144,144,0.2) ;
     line-height: 30px;
     
+}
+
+.holder h1 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #bebebe;
 }
 
 .holder img{

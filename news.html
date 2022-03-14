@@ -1,6 +1,6 @@
 <!--How to add an article:
     1.under <h1> News</h1> create a new list item and set the id. Inside that list write the title and then <br> and the date
-    2.under content-details create a new <dev> and set the class to holder and set te id
+    2.under content-details create a new <dev> and set the class to holder and set the id
         -->
 
 <!DOCTYPE html>
@@ -38,7 +38,7 @@
                         <li><a href="news.html">News</a></li>
                         <li><a href="jobs.html">Jobs</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="#"><i class="fas fa-bars bar"></i></a></li>
+                        <li onclick="untoggleText(this)"><a href="#"><i class="fas fa-bars bar" ></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -46,29 +46,79 @@
                 <div class="content-text-about">
                     <h1> News </h1>
                     <!--newer articles to the top-->
-                    <li onclick="toggleText(this)" id="2"><p>Explosions in Geminus City!<br> 2565-08-01</p></li>
-                    <li onclick="toggleText(this)" id="1"><p>Hospital Bombed, President Targeted! <br> 2565-07-31</p></li>
-                    <li onclick="toggleText(this)" id="0"><p>Scotty Willey Wins July 2565 Election with 7 Votes Out of 7 <br> 2565-07-28</p></li>
+                    <li onclick="toggleText(this)" id="6"><p>Pollux's first synthetic Research Director. <br>By Kyoko Maita (Nanotrasen Reporter)</p></li>
+                    <li onclick="toggleText(this)" id="5"><p>New Rights for Syntheics.<br> By Nanotrasen Officer #577</p></li>
+                    <li onclick="toggleText(this)" id="4"><p>More permits for the working man!<br> By Maita Kyoko</p></li>
+                    <li onclick="toggleText(this)" id="3"><p>USG Senate unveils sanctions on Andromeda!<br> By Geoffrey Armstrong</p></li>
+                    <li onclick="toggleText(this)" id="2"><p>Massive Scale found on Ocral Spax Coastline, Experts at a loss for explanation.<br> By Patty Morgans</p></li>
+                    <li onclick="toggleText(this)" id="1"><p>Former CEO Cameron Zheng voted out, new CEO, Wynter King, appointed same day.<br> By Nanotrasen Public Relations</p></li>
+                    <li onclick="toggleText(this)" id="0"><p>Nanotrasen Suffers Third Straight Month of losses! <br> By Marilyn Fieldings</p></li>
                 
                 </div>
                 <div class="content-details">
                 <!--newer articles to the top-->
                     <div class="holder" id="0">
-                        <p>Electoral Assistants of Geminus City have counted the final votes and presented the electoral results to all, there were 7 total. People from several continents on Pollux watched as the name was pulled from the traditional ballot hat. 
-                            Millions of people gathered in-person to watch the event, others stayed home to observe their televisions and communicator screens as they watch Pollux's moon through their screens. Many believed that Scott Willey would win based on the monthly election president website electionpredictions.nt.
+                        <h1>Nanotrasen Suffers Third Straight Month of losses!</h1>
+                        <p>A new Report from Nanotrasen has detailed significant financial losses incurred by the company over the last three months, as well as more sporadic losses over the preceeding five years under the leadership of Nanotrasen CEO Cameron Zheng. 
+
+                            The report, which was published internally within the corporate sector of Nanotrasen and leaked to media via annonymous sources has detailed significant losses and failures for the company in the wake of numerous projects and business deals which failed one after another, throwing into question the leadership of current CEO, and has some investors nervous. 
                            
-                            The very trustworthy and experienced electoral asssistant, Jason Lake pulls a piece of paper from the hat, revealing to viewers the winner of the election: Scotty Willey who won with 7 votes out of 7. It would have appear that the new president's slogan "Scotty will help you pocket more money" resonated with the populace.
-                            Brooke Wolff from Blue Colony commented, "Oh, I don't know anything about their policies, I just thought they were cute.", many citizens were very pleased with the results. Some however, were not as happy. A Castor civilian, Elliot Langston, commented on live television, "The system is rigged to hell, let me tell you!". 
-                            Regardless of the mixed views, many await Scotty Willey's inaugeration to see how they will deliver on their promises.</p>
+                            The Nanotrasen Board of Directors is expected to meet sometime this week to discuss the company's direction going forward, however the company itself has yet to issue a public statement on the matter, leaving many experts to compare this incident to the Sol Relay Appropriation incident, the last time that the company incurred losses on a similar scale.
+                        </p>
                     <div class="vl"></div>
                     </div>
                     <div class="holder" id="1">
-                        <p>eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
+                        <h1>Former CEO Cameron Zheng voted out, new CEO, Wynter King, appointed same day</h1>
+                        <p>Vetra was caught by surprise earlier today by the sudden removal from office of former Nanotrasen CEO Cameron Zheng in the wake of a disasterous couple of months for the company. The losses, primarily incurred from business deals and projects approved directly by CEO Zheng, were staggering after nearly 55 years of increasing profits, and seem to have undermined faith in the CEO's ability to run the company, leading to their removal. 
+
+                            Perhaps more surprisingly the CEO's former assistant, Wynter King, was voted in by split decision, with only Board Member Emile Fanda oppposed, as Nanotrasen CEO with little fanfare or warning, leading to a tense scene during Zheng's live broadcast to address the colonies in regards to the company's record losses, during which he was forcibly removed from office by Nanotrasen Asset Protection at the order of new CEO King. 
+                           
+                            A public statement has yet to be issued by the company at this time,.
+                        </p>
                     <div class="vl"></div>
                     </div>
                     <div class="holder" id="2">
-                        <p>RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR</p>
+                        <h1>Massive Scale found on Ocral Spax Coastline, Experts at a loss for explanation.</h1>
+                        <p>
+                            Experts at the Kiel Marine Research Institute in Kiel, Ocral Spax B, were at a loss for words today following the discovery of a massive leviathan class scale, reportedly over 5 feet in diameter and similar in thickness to a soft drink can. 
+
+                            Following the discovery, efforts were made to determine where the scale had come from, however due to the currents, and the scale's position inland following high tide, the search ultimately ended in uncertainty, and the scale is now being studied at the Kiel Marine museum. 
+
+                            Experts suggest that the creature from which the scale originated may have been comparable in size to many fishing trawlers and initial analysis of the scale's composition suggests a high protein diet, however it matches no currently documented specimens in the Polluxian Planetary Xenobiology registry, leaving many to believe that it is a new, undiscovered leviathan class species.
+
+                        </p>
                     <div class="vl"></div>
+                    </div>
+                    <div class="holder" id="3">
+                        <h1>USG Senate unveils sanctions on Andromeda!</h1>
+                        <p>Today, the Public Relations Office of the United Sol Government, after many inquiries about the current legislative effort of the Senate, has finally announced that they are debating introducing new sanctions against the Andromedian independent Colony Ship.
+                            The news struck many by surprise as, after a period of high tensions, the waters were seemingly calm, but it would appear that the authoritarian wing of the USG has broke a deal with the other political entities.
+                           
+                            As the news quickly made its way across the known galaxy, Andromedian officials have announced that they will not bow to aggressive Solarian actions and will answer in kind.
+                            Reports have been submitted from Solarian Loyalists in the Colony ship about beatings and gang actions being taken against the known representatives and the less convinced independentists. 
+                           
+                            In this tense climate Local Government authorities have disclosed that the Solarian Ambassador for the Polluxian Colonies, Otto Von Fredrick-Dubois has agreed to a meeting with a Representative of the NanoTrasen Corporation and the location is currently being decided.
+                           </p>
+                        <div class="vl"></div>
+                    </div>
+                    <div class="holder" id="4">
+                        <h1>More permits for the working man!</h1>
+                        <p>The city of Ophelia & many other cities will now be requiring a "Resource Mining Permit" for all citizens & companies mining in their designated mining areas. This new permit is to hopefully keep the city of Ophelia and may others from ending up like its counter part Geminus. Due to the Resource Preservation and Harvesting Act 2558, Nanotrasen has become more strict in their conservation habits, trying its best to protect Pollux and all of its inhabitants. CEO Akiko Nishimura commented on this new permit stating: "I hope with this permit we can slow over mining of our resources. The relocation of the citizens and businesses wasn't easy. I could not allow such dangerous conditions to persist let alone continue to not only allow, but profit from citizens living in Geminus's dangerous conditions." Maita Kyoko Nanotrasen Reporter
+                        </p>
+                        <div class="vl"></div>
+                    </div>
+                    <div class="holder" id="5">
+                        <h1>New Rights for Syntheics.</h1>
+                        <p>
+                            Today sparks news with the current advisor to innovation Dr. Qasira Bhari, placing a current hold on all none military and police sales of GYGAX and Durand mechs. Dr. Qasira Bhari stated in her email to CEO and acting President Akiko Nishimura: â€śIn order to foster a safe district, prevent the loss of life and property, and ensure that newcomers have a chance to get a foothold in the economy, the governmental bodies of Pollux in coordination with the Research Division have put a hold on the sale or distribution of military-grade exosuits. These include the Durand and Gygax models, as well as any others that are capable of being outfitted with offensive weaponry. This move is done as a preliminary step in formulating the proper certification and paperwork for the sale and distribution of high-end mechs. This temporary hold does not affect non-combat role exosuits such as the Ripley. We hope to establish proper sale and distribution paperwork, as well as piloting certification for the citizens of Ophelia.
+                        </p>
+                        <div class="vl"></div>
+                    </div>
+                    <div class="holder" id="6">
+                        <h1>Pollux's first synthetic Research Director.</h1>
+                        <p>Following todayâ€™s lifting of the synth discrimination law CEO Akiko Nishimura had appointed a new Research Director, S.A.D a synthetic owned by Dr. Bahri. This has been a quick turn of events since synthetics were not allowed to even apply for any form of command role. Pro synthetic groups are raving for CEO Akiko Nishimura applauding her for her forwarding things and her progressive movements for pollux.
+                        </p>
+                        <div class="vl"></div>
                     </div>
                 </div>
             </div>
@@ -76,8 +126,8 @@
                 <div class="social-media">
                     <ul>
                         <li><a href="http://geminuscity.com/index.php?title=Main_Page" target="blank"><i class="fab fa-wikipedia-w"></i></a></li>
-                        <li><a href="https://github.com/GeminusCity/Geminus-City" target="blank"><i class="fab fa-github"></i></i></a></li>
-                        <li><a href="https://discord.com/invite/fp9VxCmZYw" target="blank"><i class="fab fa-discord"></i></a></li>
+                        <li><a href="https://github.com/BlueColonySS13/BlueColonySS13" target="blank"><i class="fab fa-github"></i></i></a></li>
+                        <li><a href="https://discord.com/invite/mQUmnRx7wF" target="blank"><i class="fab fa-discord"></i></a></li>
                     </ul>
                 </div>
             </div>

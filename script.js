@@ -26,7 +26,15 @@ function toggleText(id)
         
         hid[x].style.display = "block";
 
- }
+}
+
+function untoggleText(id)
+{
+    var hid = document.getElementsByClassName("holder");
+    for (var i=0;i<hid.length;i+=1){
+        hid[i].style.display = "none";
+    }
+}
 //renamed toggle function to toggleImage
 function toggleImage(e)
 {
